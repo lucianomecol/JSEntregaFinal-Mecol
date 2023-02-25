@@ -1,0 +1,181 @@
+.container__main{
+  
+  .nuestros__productos {
+    font-family: 'Times New Roman', Times, serif;
+    color: $negro;
+    text-align: center;
+    padding: 3.1rem 0rem 5rem 0rem;
+    font-size: 3.8rem;
+  }
+
+  .productos__info {
+    font-family: 'Times New Roman', Times, serif;
+    color: $gris2;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 5% 0 5%;
+  }
+
+  .prueba__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: $azul2;
+  }
+}
+
+.modal-contenedor{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contenedor-img{
+  width: 5.5rem;
+  height: 5.5rem;
+
+  .img-carrito{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+  
+.prueba__productos{
+  position: relative;
+  @include productos;
+
+  &:hover{
+    @include sombra2;
+
+    .imagen {
+
+      .iconos{
+        bottom:0;
+        transition: all 400ms ease;
+      }
+    }
+  }
+
+  .prueba__descuento{
+    position: relative;
+    top: 1rem; 
+    left: 1rem;
+    font-size: 2rem;
+    background:rgba(26, 21, 24, 0.144);
+    z-index: 1;
+  }
+
+  .imagen{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow:hidden;
+  
+    img{
+      height: 18rem;
+      width: 18rem;
+    }
+
+    .iconos{
+      position: absolute;
+      bottom:-7rem; 
+      left:0; 
+      right:0;
+      display: flex;
+      background-color: $azul2;
+
+      &:hover{
+        background:$gris;
+      }
+
+      #boton{
+        font-size: 1.8rem;
+        border-left: 0.1rem;
+        border-right: 0.1rem;
+        width: 100%;
+        height: 5rem;
+        background-color: $azul2;
+      }
+    }
+  }
+}
+  
+.contenido{
+  padding: 2rem;
+  text-align: center;
+
+  h2{
+    justify-content: center;
+    font-size: 2.5rem;
+    color: $gris;
+  }
+
+  .prueba__precio{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+  
+    span{
+      font-size: 1.5rem;
+      color:$ceniza;
+      font-weight: lighter;
+      text-decoration: line-through;
+    }
+  }
+}
+  
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3.1rem;
+  
+  .responsive-embed {
+    width: 800px;
+    height: 400px;
+  }
+}
+  
+@media screen and (max-width: 1024px) {
+  .container__main{
+
+    .productos__info{
+      font-size: 1.4rem;
+    }
+  }
+  .video {
+
+    .responsive-embed {
+      width: 600px;
+      height: 300px;
+    }
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .video {
+
+    .responsive-embed {
+      width: 400px;
+      height: 200px;
+    }
+  }
+}
+  
+@media screen and (max-width: 480px) {
+  .container__main{
+    
+    .productos__info{
+      font-size: 0.9rem;
+    }
+  }
+  .video {
+
+    .responsive-embed {
+      width: 300px;
+      height: 150px;
+    }
+  }
+}

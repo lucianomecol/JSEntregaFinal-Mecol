@@ -1,0 +1,11 @@
+body {
+    overflow-y: scroll;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-image: url('https://media.istockphoto.com/vectors/old-off-white-cream-colored-rippled-effect-wooden-wall-textured-vector-id1075327322?k=20&m=1075327322&s=170667a&w=0&h=opvKWrBskKPHyGKAFpAPiv4ATYUgydeis4mJEU3H33A=');
+
+    .container__main {
+        margin-top: 12rem;
+        min-height: calc(100vh - 320px);
+    }
+}

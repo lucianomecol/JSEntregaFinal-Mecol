@@ -1,0 +1,554 @@
+{
+    "bano" : [
+        {
+            "id": 1,
+            "nombre": "mesada baño",
+            "cantidad": 1,
+            "desc": 25,
+            "descripcion": "mesada baño",
+            "precio": 6000,
+            "precioDesc": 4500,
+            "img": "../media/bajo-mesada-baño.webp"
+        },
+        {
+            "id": 2,
+            "nombre": "botiquin",
+            "cantidad": 1,
+            "desc": 15,
+            "descripcion": "botiquin",
+            "precio": 2000,
+            "precioDesc": 1700,
+            "img": "../media/botiquin.webp"
+        },
+        {
+            "id": 3,
+            "nombre": "esquinero baño",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "esquinero baño",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/esquinero-baño.webp"
+        },
+        {
+            "id": 4,
+            "nombre": "organizador",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "organizador baño",
+            "precio": 1800,
+            "precioDesc": 1620,
+            "img": "../media/organizador-water.webp"
+        },
+        {
+            "id": 5,
+            "nombre": "espejo",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "espejo",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/espejo.webp"
+        },
+        {
+            "id": 6,
+            "nombre": "organizador",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "organizador",
+            "precio": 1200,
+            "precioDesc": 960,
+            "img": "../media/organizador.webp"
+        },
+        {
+            "id": 7,
+            "nombre": "espejo2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "espejo2",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/espejo.webp"
+        },
+        {
+            "id": 8,
+            "nombre": "organizador2",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "organizador2",
+            "precio": 1200,
+            "precioDesc": 960,
+            "img": "../media/organizador.webp"
+        },
+        {
+            "id": 9,
+            "nombre": "esquinero baño2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "esquinero baño2",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/esquinero-baño.webp"
+        }
+    ],
+    "cocina" : [
+        {
+            "id": 101,
+            "nombre": "bajo mesada",
+            "cantidad": 1,
+            "desc": 50,
+            "descripcion": "bajo mesada",
+            "precio": 8400,
+            "precioDesc": 4200,
+            "img": "../media/bajo-mesada.webp"
+        },
+        {
+            "id": 102,
+            "nombre": "aereo",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "aereo",
+            "precio": 1200,
+            "precioDesc": 960,
+            "img": "../media/aereo.webp"
+        },
+        {
+            "id": 103,
+            "nombre": "modular",
+            "cantidad": 1,
+            "desc": 30,
+            "descripcion": "modular",
+            "precio": 14000,
+            "precioDesc": 9800,
+            "img": "../media/modular.webp"
+        },
+        {
+            "id": 104,
+            "nombre": "mesada acero",
+            "cantidad": 1,
+            "desc": 15,
+            "descripcion": "mesada acero",
+            "precio": 4600,
+            "precioDesc": 3910,
+            "img": "../media/mesada-acero.webp"
+        },
+        {
+            "id": 105,
+            "nombre": "multiuso",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "multiuso",
+            "precio": 3800,
+            "precioDesc": 3420,
+            "img": "../media/multiuso.webp"
+        },
+        {
+            "id": 106,
+            "nombre": "mesada",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "mesada",
+            "precio": 12000,
+            "precioDesc": 9600,
+            "img": "../media/mesada-marmol.webp"
+        },
+        {
+            "id": 107,
+            "nombre": "mesada2",
+            "cantidad": 1,
+            "desc": 25,
+            "descripcion": "mesada2",
+            "precio": 8400,
+            "precioDesc": 6300,
+            "img": "../media/bajo-mesada.webp"
+        },
+        {
+            "id": 108,
+            "nombre": "aereo2",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "aereo2",
+            "precio": 1200,
+            "precioDesc": 960,
+            "img": "../media/aereo.webp"
+        },
+        {
+            "id": 109,
+            "nombre": "multiuso2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "multiuso2",
+            "precio": 3800,
+            "precioDesc": 3420,
+            "img": "../media/multiuso.webp"
+        }
+    ],
+    "comedor" : [
+        {
+            "id": 201,
+            "nombre": "mesa",
+            "cantidad": 1,
+            "desc": 45,
+            "descripcion": "mesa",
+            "precio": 18000,
+            "precioDesc": 9900,
+            "img": "../media/mesa.webp"
+        },
+        {
+            "id": 202,
+            "nombre": "silla club",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "silla club",
+            "precio": 6700,
+            "precioDesc": 5360,
+            "img": "../media/silla-club.webp"
+        },
+        {
+            "id": 203,
+            "nombre": "juego sillas",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "juego sillas",
+            "precio": 2750,
+            "precioDesc": 2475,
+            "img": "../media/juego-sillas.webp"
+        },
+        {
+            "id": 204,
+            "nombre": "mesa chica",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "mesa chica",
+            "precio": 3680,
+            "precioDesc": 3312,
+            "img": "../media/mesa-compacta.webp"
+        },
+        {
+            "id": 205,
+            "nombre": "mesa infantil",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "mesa infantil",
+            "precio": 1950,
+            "precioDesc": 1755,
+            "img": "../media/mesa-infantil.webp"
+        },
+        {
+            "id": 206,
+            "nombre": "bar",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "bar",
+            "precio": 3400,
+            "precioDesc": 2720,
+            "img": "../media/bar.webp"
+        },
+        {
+            "id": 207,
+            "nombre": "juego sillas2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "juego sillas2",
+            "precio": 2750,
+            "precioDesc": 2475,
+            "img": "../media/juego-sillas.webp"
+        },
+        {
+            "id": 208,
+            "nombre": "mesa chica2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "mesa chica2",
+            "precio": 3680,
+            "precioDesc": 3312,
+            "img": "../media/mesa-compacta.webp"
+        },
+        {
+            "id": 209,
+            "nombre": "bar2",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "bar2",
+            "precio": 3400,
+            "precioDesc": 2720,
+            "img": "../media/bar.webp"
+        }
+    ],
+    "dormitorio" : [
+        {
+            "id": 301,
+            "nombre": "cama",
+            "cantidad": 1,
+            "desc": 35,
+            "descripcion": "cama",
+            "precio": 28500,
+            "precioDesc": 18525,
+            "img": "../media/cama.webp"
+        },
+        {
+            "id": 302,
+            "nombre": "ropero",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "ropero",
+            "precio": 18300,
+            "precioDesc": 14640,
+            "img": "../media/ropero.webp"
+        },
+        {
+            "id": 303,
+            "nombre": "respaldo",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "respaldo",
+            "precio": 2450,
+            "precioDesc": 2205,
+            "img": "../media/respaldo.webp"
+        },
+        {
+            "id": 304,
+            "nombre": "mesa de luz",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "mesa de luz",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/mesa-de-luz.webp"
+        },
+        {
+            "id": 305,
+            "nombre": "baul",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "baul",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/baul.webp"
+        },
+        {
+            "id": 306,
+            "nombre": "zapatero",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "zapatero",
+            "precio": 2400,
+            "precioDesc": 1920,
+            "img": "../media/zapatero.webp"
+        },
+        {
+            "id": 307,
+            "nombre": "cama2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "cama2",
+            "precio": 28500,
+            "precioDesc": 25650,
+            "img": "../media/cama.webp"
+        },
+        {
+            "id": 308,
+            "nombre": "ropero2",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "ropero2",
+            "precio": 18300,
+            "precioDesc": 14640,
+            "img": "../media/ropero.webp"
+        },
+        {
+            "id": 309,
+            "nombre": "respaldo2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "respaldo2",
+            "precio": 2450,
+            "precioDesc": 2205,
+            "img": "../media/respaldo.webp"
+        }
+    ],
+    "living" : [
+        {
+            "id": 401,
+            "nombre": "sofa cama",
+            "cantidad": 1,
+            "desc": 50,
+            "descripcion": "sofa cama",
+            "precio": 4700,
+            "precioDesc": 2350,
+            "img": "../media/sofa-cama.webp"
+        },
+        {
+            "id": 402,
+            "nombre": "rack",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "rack",
+            "precio": 17800,
+            "precioDesc": 14240,
+            "img": "../media/rack.webp"
+        },
+        {
+            "id": 403,
+            "nombre": "mesa centro",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "mesa centro",
+            "precio": 3500,
+            "precioDesc": 3150,
+            "img": "../media/mesa-de-centro.webp"
+        },
+        {
+            "id": 404,
+            "nombre": "sillon",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "sillon",
+            "precio": 8790,
+            "precioDesc": 7911,
+            "img": "../media/sillon.webp"
+        },
+        {
+            "id": 405,
+            "nombre": "puff",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "puff",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/puff.webp"
+        },
+        {
+            "id": 406,
+            "nombre": "perchero",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "perchero",
+            "precio": 1200,
+            "precioDesc": 960,
+            "img": "../media/perchero.webp"
+        },
+        {
+            "id": 407,
+            "nombre": "sofa cama2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "sofa cama2",
+            "precio": 4700,
+            "precioDesc": 4230,
+            "img": "../media/sofa-cama.webp"
+        },
+        {
+            "id": 408,
+            "nombre": "mesa centro2",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "mesa centro2",
+            "precio": 3500,
+            "precioDesc": 2800,
+            "img": "../media/mesa-de-centro.webp"
+        },
+        {
+            "id": 409,
+            "nombre": "sillon2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "sillon2",
+            "precio": 8790,
+            "precioDesc": 7911,
+            "img": "../media/sillon.webp"
+        }
+    ],
+    "oficina" : [
+        {
+            "id": 501,
+            "nombre": "silla escritorio",
+            "cantidad": 1,
+            "desc": 22,
+            "descripcion": "silla escritorio",
+            "precio": 3900,
+            "precioDesc": 3042,
+            "img": "../media/silla-escritorio.webp"
+        },
+        {
+            "id": 502,
+            "nombre": "escritorio",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "escritorio",
+            "precio": 6700,
+            "precioDesc": 5360,
+            "img": "../media/escritorio.webp"
+        },
+        {
+            "id": 503,
+            "nombre": "estanteria",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "estanteria",
+            "precio": 1950,
+            "precioDesc": 1755,
+            "img": "../media/estanteria.webp"
+        },
+        {
+            "id": 504,
+            "nombre": "libreria",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "libreria",
+            "precio": 3200,
+            "precioDesc": 2880,
+            "img": "../media/libreria.webp"
+        },
+        {
+            "id": 505,
+            "nombre": "archivero",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "archivero",
+            "precio": 1200,
+            "precioDesc": 1080,
+            "img": "../media/archivero.webp"
+        },
+        {
+            "id": 506,
+            "nombre": "esquinero",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "esquinero",
+            "precio": 9300,
+            "precioDesc": 7440,
+            "img": "../media/escritorio-esquinero.webp"
+        },
+        {
+            "id": 507,
+            "nombre": "escritorio2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "escritorio2",
+            "precio": 6700,
+            "precioDesc": 6030,
+            "img": "../media/escritorio.webp"
+        },
+        {
+            "id": 508,
+            "nombre": "libreria2",
+            "cantidad": 1,
+            "desc": 20,
+            "descripcion": "libreria2",
+            "precio": 3200,
+            "precioDesc": 2560,
+            "img": "../media/libreria.webp"
+        },
+        {
+            "id": 509,
+            "nombre": "esquinero2",
+            "cantidad": 1,
+            "desc": 10,
+            "descripcion": "esquinero2",
+            "precio": 9300,
+            "precioDesc": 8370,
+            "img": "../media/escritorio-esquinero.webp"
+        }
+    ]
+}

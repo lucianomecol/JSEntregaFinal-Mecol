@@ -1,0 +1,52 @@
+.index {
+  margin-top: 12rem;
+  display: grid; 
+  grid-template-columns: 3fr 4fr 3fr; 
+  grid-template-rows: 2fr 2fr 2fr; 
+  gap: 1em 1em; 
+  grid-template-areas: 
+    "index__imagen1 index__imagen1 index__parrafo1"
+    "index__parrafo2 index__imagen2 index__imagen2"
+    "index__imagen3 index__imagen3 index__parrafo3";
+
+  &__imagen1 { grid-area: index__imagen1; }
+  &__parrafo1 { grid-area: index__parrafo1; }
+  &__imagen2 { grid-area: index__imagen2; }
+  &__parrafo2 { grid-area: index__parrafo2; }
+  &__imagen3 { grid-area: index__imagen3; }
+  &__parrafo3 { grid-area: index__parrafo3; }
+}
+
+.imagen__inicio {
+  width: 100%;
+  height: 100%;
+}
+
+.parrafo__inicio {
+  align-self: center;
+  font-size: 4rem;
+}
+  
+@media screen and (max-width: 1200px) {
+  .parrafo__inicio {
+    font-size: 3rem;
+  }
+}
+  
+@media screen and (max-width: 1024px) {
+  .parrafo__inicio {
+    font-size: 2.5rem;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .parrafo__inicio {
+    font-size: 1.5rem;
+  }
+}
+  
+@media screen and (max-width: 480px) {
+  .parrafo__inicio {
+    font-size: 1rem;
+  }
+}
